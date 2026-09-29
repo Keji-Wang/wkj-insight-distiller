@@ -103,6 +103,7 @@ This skill is original work (upstream verification record in [SOURCES.md](SOURCE
 
 - Author: Jeffrey Wang ([Keji-Wang](https://github.com/Keji-Wang))
 - X: [@JiafuWang](https://x.com/JiafuWang)
+- Email：[keji.dev@outlook.com](mailto:keji.dev@outlook.com)
 - Questions and suggestions: please prefer [Issues](https://github.com/Keji-Wang/wkj-insight-distiller/issues)
 
 ## License
