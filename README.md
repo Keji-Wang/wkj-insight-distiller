@@ -103,6 +103,7 @@ cp -r wkj-insight-distiller ~/.claude/skills/insight-distiller
 
 - 作者：Jeffrey Wang（[Keji-Wang](https://github.com/Keji-Wang)）
 - X：[@JiafuWang](https://x.com/JiafuWang)
+- 邮箱：[keji.dev@outlook.com](mailto:keji.dev@outlook.com)
 - 问题与建议请优先走 [Issues](https://github.com/Keji-Wang/wkj-insight-distiller/issues)
 
 ## 许可
