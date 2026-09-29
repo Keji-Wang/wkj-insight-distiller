@@ -28,7 +28,7 @@ Insight Distiller 的做法相反：**先承认材料是什么，再决定能从
 **安装（以 Claude Code / 兼容 skills 目录的 Agent 为例）：**
 
 ```bash
-git clone https://github.com/Keji-Wang/insight-distiller.git
+git clone https://github.com/Keji-Wang/wkj-insight-distiller.git
 cp -r insight-distiller ~/.claude/skills/insight-distiller
 ```
 
@@ -62,6 +62,12 @@ cp -r insight-distiller ~/.claude/skills/insight-distiller
 ## 来源与致谢
 
 本 skill 为原创作品（见 [SOURCES.md](SOURCES.md) 的上游核实记录）。`references/human-writing-rules.md` 的文风校验层在理念上参考了三个公开的"AI 味"审校视角（renwei-writing、humanizer 谱系、dbs-ai-check），未复制任何文本。同一作者的姊妹项目：[wkj-human](https://github.com/Keji-Wang/wkj-human)（商业文本人味审校，作用于本 skill 的下游）。
+
+## 作者与联系
+
+- 作者：Jeffrey Wang（[Keji-Wang](https://github.com/Keji-Wang)）
+- X：[@JiafuWang](https://x.com/JiafuWang)
+- 问题与建议请优先走 [Issues](https://github.com/Keji-Wang/wkj-insight-distiller/issues)
 
 ## 许可
 
