@@ -29,7 +29,7 @@ Insight Distiller 的做法相反：**先承认材料是什么，再决定能从
 
 ```bash
 git clone https://github.com/Keji-Wang/wkj-insight-distiller.git
-cp -r insight-distiller ~/.claude/skills/insight-distiller
+cp -r wkj-insight-distiller ~/.claude/skills/insight-distiller
 ```
 
 其他 Agent 平台：把 `SKILL.md` 与 `references/` 目录一起放入该平台的 skill 目录即可（目录结构不可拆散，SKILL.md 会按相对路径引用 references）。cc-switch 用户可直接从本仓库安装。未逐一验证的平台不宣称兼容。
