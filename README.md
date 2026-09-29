@@ -1,5 +1,7 @@
 # Insight Distiller · 访谈内容洞察
 
+中文 | [English](README.en.md)
+
 **把访谈、会议纪要、转录和文章，整理成每句话都能回到出处的洞察备忘录的 Agent Skill。**
 
 An Agent Skill that turns interviews, meeting notes, transcripts, and articles into source-grounded insight memos — separating what was said, what is inferred, what is verified, and what remains open.
