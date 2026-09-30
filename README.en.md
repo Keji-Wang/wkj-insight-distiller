@@ -10,7 +10,7 @@ It does not promise "automatic truth extraction" or "zero hallucination": the sk
 
 ## Quick start
 
-Pure Markdown, no dependencies. Any AI Agent that can read local files (or accept pasted long text) can use it.
+Pure Markdown, no dependencies. In principle, any AI Agent that can read local files (or accept pasted long text) can use it. Systematic testing so far is GLM-only (see [Limitations](#limitations)); other environments are theoretically usable but unverified.
 
 ```bash
 git clone https://github.com/Keji-Wang/wkj-insight-distiller.git
