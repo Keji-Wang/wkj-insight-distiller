@@ -10,7 +10,7 @@
 
 ## 快速开始
 
-纯 Markdown，无依赖。任何能读本地文件（或支持粘贴长文本）的 AI Agent 都能用。
+纯 Markdown，无依赖。理论上任何能读本地文件（或支持粘贴长文本）的 AI Agent 都能用；目前做过系统试跑的环境只有 GLM（见[限制](#限制)），其他环境属理论可用、未经系统验证。
 
 ```bash
 git clone https://github.com/Keji-Wang/wkj-insight-distiller.git
