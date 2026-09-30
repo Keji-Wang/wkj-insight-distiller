@@ -55,20 +55,34 @@ Read [references/version-profiles.md](references/version-profiles.md).
 - Separate facts, views, guesses, and emotional rhetoric.
 - Cluster themes before synthesizing judgments.
 
-6. Produce the memo first.
+6. Run a deepening pass before writing the memo.
+After the material is organized and before drafting the memo body, ask two questions.
+The two questions have different applicability: Connections applies only when the input contains more than one document; Missing context applies to every input, including single documents.
+Output findings only when the material genuinely supports them — this pass is an optional memo module, never a mandatory section, and "nothing to add" is a valid result.
+
+- **Connections (across sources within this input)**: when the input contains more than one document, check whether the sources echo, contradict, or repeatedly signal the same thing. When a connection is worth reporting, present it as the analyst's interpretation — a possible shared mechanism behind the signals — not as an established fact. If the shared mechanism is only a guess, convert it into a research question instead of asserting it. Scope limit: connections run across the documents in the current input only. This skill has no cross-session memory; never promise or imply automatic linking to past interviews or earlier material.
+
+- **Missing context (analyst background gaps)**: apply to every input. A practical test: for each load-bearing statement, ask whether a reader with no knowledge beyond the text would still grasp why the statement matters. If the importance depends on outside context — whether a policy direction exists, how significant a regulatory, industry, or organizational move is, what its history implies — that is a missing-context finding, even when the speaker already mentioned part of the background in passing. For each finding: name the type of background needed to fully understand the statement, then turn it into a research question. Report findings under an explicit background-gap label (such as a `背景提示` item or section) so they do not blur into the material's internal information gaps. Background knowledge you yourself use to frame an interpretation — e.g. calling an industry "policy-driven" — is outside the source: label it as analyst-supplied and unverified, or convert it into a research question. If research capability is available, the question may go through the Research-Enhanced flow; verified results are labeled `externally supported fact`, never mixed into source expression.
+
+Keep this pass distinct from existing sections:
+- `信息缺口 / Information Gaps` and the follow-up signals section describe information missing **inside the material**.
+- Missing context here describes background knowledge missing **on the analyst's or reader's side** — a statement can be fully supported by the material and still depend on outside background for its weight to register.
+- Both findings use the standard labeling: they are `analyst interpretation`, and their research questions belong with the other follow-up signals.
+
+7. Produce the memo first.
 Read [references/output-template.md](references/output-template.md).
 Read [references/human-writing-rules.md](references/human-writing-rules.md).
 Default output is a Markdown memo, not a card.
 Prefer an insight-first memo for the main deliverable.
 Keep heavy verification details in a short appendix when needed instead of letting proof structure dominate the reading experience.
 
-7. Run a post-write humanization pass.
+8. Run a post-write humanization pass.
 - Apply [references/human-writing-rules.md](references/human-writing-rules.md) as one combined lens: keep the person behind the judgment visible, do less, and do not polish every sentence into a performance.
 - Remove inflated significance, promotional words, rule-of-three rhythm, vague authority phrases, and other recognizable AI fingerprints.
 - Treat AI flavor as a sign that the prose is too smooth, too complete, too evenly explained, or too eager to sound profound.
 - Only humanize sentences you wrote. Do not distort source facts or quoted expressions just to sound less AI-like.
 
-8. Create derivative outputs only after the memo is solid.
+9. Create derivative outputs only after the memo is solid.
 - Talking points
 - Internal sharing notes
 - Card candidates
