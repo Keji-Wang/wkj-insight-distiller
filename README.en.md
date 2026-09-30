@@ -74,8 +74,8 @@ The following is quoted from [examples/01-single-interview/](examples/01-single-
 ## 30-second understanding: input → what it does → output
 
 - **Input**: interview write-ups, meeting minutes (human or AI generated), livestream/podcast transcripts, subtitle files, article bundles, information-poor fragments; pasted text or local files both work.
-- **What it does**: first identifies input type and information maturity, and separates facts, opinions, inferences, and hypotheses; multi-speaker material goes through speaker confirmation first; without research tools it labels claims "unverified" honestly, and takes responsibility only for the part of a file it actually read.
-- **Output**: one Markdown insight memo — input recognition, information gaps, insights (observed phenomena / core judgment / external evidence / significance), signals worth digging into, directly reusable expressions, plus an optional forwardable summary. The number of insights follows signal density — fewer, harder judgments over padded lists.
+- **What it does**: first identifies input type and information maturity, and separates facts, opinions, inferences, and hypotheses; multi-speaker material goes through speaker confirmation first; before drafting the memo it runs a deepening self-check — with multiple documents it looks for cross-document echoes and contradictions (connections labeled as analyst interpretation, uncertain mechanisms turned into research questions), and flags statements whose weight depends on outside background (reported as a background note with the background type named, converted into research questions); without research tools it labels claims "unverified" honestly, and takes responsibility only for the part of a file it actually read.
+- **Output**: one Markdown insight memo — input recognition, information gaps, insights (observed phenomena / core judgment / external evidence / significance), signals worth digging into, directly reusable expressions, plus an optional forwardable summary. The number of insights follows signal density — fewer, harder judgments over padded lists; deepening findings appear as an optional module and may be absent when the material does not support them.
 - **Two modes**: Source-Only (default, material only) and Research-Enhanced (external verification of time-sensitive claims when search is available).
 
 ## The problem it solves
@@ -86,7 +86,7 @@ The two blind-run examples above are the corresponding behavior designs: number 
 
 ## Examples and validation
 
-[examples/](examples/) contains 8 fictional cases (all people, companies, and figures are invented), covering the scenarios where this skill is most likely to go wrong; each case includes the input, expected behavior, and one real blind-run output. Validation status is published honestly in [docs/validation.md](docs/validation.md): 8 blind runs, 7 pass, 1 partial pass, 0 fail; **independent human review is not done yet** — this version should not be treated as stable.
+[examples/](examples/) contains 10 fictional cases (all people, companies, and figures are invented), covering the scenarios where this skill is most likely to go wrong; each case includes the input, expected behavior, and one real blind-run output. Validation status is published honestly in [docs/validation.md](docs/validation.md): the v0.1 eight blind runs ended with 7 pass and 1 partial pass; both v0.2 deepening-pass cases passed — the "missing context" one only after two rounds of rule iteration (documented). **Independent human review is not done yet** — this version should not be treated as stable.
 
 ## Limitations
 
